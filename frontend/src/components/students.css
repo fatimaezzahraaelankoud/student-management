@@ -1,0 +1,45 @@
+h1{
+    color: rgb(23, 23, 100);
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 10px ;
+
+}
+input{
+    border-radius: 8px ;
+    width: 20%;
+    text-align: center;
+    color: rgb(75, 80, 84);
+    border-color: black;
+    background-color: white;
+}
+ button{
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    
+    padding: 2px 10px ;
+}
+form button{
+background-color: rgb(68, 187, 9);
+}
+
+table{
+    width: 100%;
+    margin-top: 10px;
+    border: 1px black 8%;
+}
+.delete_button{
+    background-color:red ;
+}
+.update_button{
+    background-color: blue;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
